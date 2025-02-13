@@ -1,0 +1,9 @@
+{
+  "name": "travel-story-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd backend && node index.js",
+    "client": "cd frontend/travel-story-app && yarn start",
+    "install": "cd backend && yarn install && cd ../frontend/travel-story-app && yarn install"
+  }
+}
